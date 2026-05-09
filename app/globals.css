@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2D3A4A;
+  --color-primary-light: #3E5060;
+  --color-primary-deep: #1A2530;
+  --color-secondary: #6B7D8D;
+  --color-accent: #8FA3B3;
+  --color-gold: #D4AF37;
+  --color-surface: #F7F8F9;
+  --color-ink: #1A1A1A;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #FFFFFF;
+  color: var(--color-ink);
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), system-ui, sans-serif;
+  letter-spacing: -0.005em;
+  color: var(--color-primary);
+  font-weight: 200;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-container px-5 md:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded bg-primary px-6 py-3 text-sm font-medium uppercase tracking-wide text-white transition-all duration-300 hover:bg-primary-light hover:translate-y-[-2px] hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded border-2 border-primary bg-transparent px-6 py-3 text-sm font-medium uppercase tracking-wide text-primary transition-all duration-300 hover:bg-primary hover:text-white hover:translate-y-[-2px];
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded bg-gold px-6 py-3 text-sm font-medium uppercase tracking-wide text-white transition-all duration-300 hover:bg-gold-dark hover:translate-y-[-2px] hover:shadow-lg;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-[0.3em] text-gold;
+  }
+
+  .serif {
+    font-family: var(--font-lora), Georgia, serif;
+  }
+}
+
+/* Reveal-on-scroll: invisible until .is-visible is added by IntersectionObserver */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal-fade {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+.reveal-fade.is-visible { opacity: 1; }
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.97);
+  transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-scale.is-visible { opacity: 1; transform: scale(1); }
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-32px);
+  transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-left.is-visible { opacity: 1; transform: none; }
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(32px);
+  transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-right.is-visible { opacity: 1; transform: none; }
+
+/* Gentle character reveal (used in hero) */
+@keyframes word-rise {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.word-rise > span {
+  display: inline-block;
+  opacity: 0;
+  animation: word-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal-fade, .reveal-scale, .reveal-left, .reveal-right {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .word-rise > span { opacity: 1 !important; animation: none !important; }
+}
+
+/* Skeleton shimmer for loading states */
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, #eef0f3 0px, #f7f8f9 200px, #eef0f3 400px);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
