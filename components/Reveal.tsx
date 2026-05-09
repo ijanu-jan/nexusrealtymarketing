@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { createElement, useEffect, useRef, useState } from "react";
 
 type RevealVariant = "up" | "fade" | "scale" | "left" | "right";
 
@@ -65,13 +65,13 @@ export default function Reveal({
 
   const style = delay ? { transitionDelay: `${delay}ms` } : undefined;
 
-  return (
-    <Tag
-      ref={ref as React.RefObject<HTMLElement & HTMLDivElement>}
-      style={style}
-      className={`${variantClass[variant]} ${visible ? "is-visible" : ""} ${className}`}
-    >
-      {children}
-    </Tag>
+  return createElement(
+    Tag,
+    {
+      ref,
+      style,
+      className: `${variantClass[variant]} ${visible ? "is-visible" : ""} ${className}`,
+    },
+    children
   );
 }
