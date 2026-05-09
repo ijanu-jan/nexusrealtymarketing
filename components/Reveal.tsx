@@ -65,10 +65,9 @@ export default function Reveal({
 
   const style = delay ? { transitionDelay: `${delay}ms` } : undefined;
 
-  // @ts-expect-error — dynamic tag with ref
   return (
     <Tag
-      ref={ref}
+      ref={ref as React.RefObject<HTMLElement & HTMLDivElement>}
       style={style}
       className={`${variantClass[variant]} ${visible ? "is-visible" : ""} ${className}`}
     >
