@@ -29,7 +29,7 @@ export default function Footer() {
 
           <a
             href="tel:+923314446666"
-            className="mt-6 font-heading text-2xl font-bold tracking-wide text-white hover:text-gold md:text-3xl"
+            className="mt-6 font-heading text-2xl font-bold tracking-wide text-white hover:text-accent md:text-3xl"
           >
             0331 444 6666
           </a>
@@ -42,7 +42,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="flex h-9 w-9 items-center justify-center rounded bg-white/10 text-white transition-colors hover:bg-gold"
+                  className="flex h-9 w-9 items-center justify-center rounded bg-white/10 text-white transition-colors hover:bg-accent"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                     <path d={s.icon} />

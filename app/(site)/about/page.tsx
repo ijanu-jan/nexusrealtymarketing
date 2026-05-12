@@ -14,7 +14,7 @@ export default function AboutPage() {
     <>
       <section className="bg-nexus-gradient py-20 text-white">
         <div className="container-x">
-          <span className="eyebrow !text-gold">About</span>
+          <span className="eyebrow !text-accent">About</span>
           <h1 className="mt-3 font-heading text-h1 text-white">
             Built to Last. Guaranteed to Deliver.
           </h1>
@@ -41,7 +41,7 @@ export default function AboutPage() {
           <div>
             <span className="eyebrow">Who we are</span>
             <h2 className="mt-3 font-heading text-h2">A trusted name in Bahria Town</h2>
-            <div className="mt-4 h-1 w-16 rounded bg-gold" />
+            <div className="mt-4 h-1 w-16 rounded bg-primary-deep" />
             <p className="mt-6 text-muted">
               Nexus Realty Marketing specializes in marketing and dealing in leading housing societies
               and real estate projects. Our team stays updated with the latest market trends to offer the

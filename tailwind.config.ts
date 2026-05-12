@@ -30,11 +30,11 @@ const config: Config = {
         serif: ["var(--font-lora)", "Georgia", "serif"],
       },
       fontSize: {
-        h1: ["clamp(2.25rem, 5vw, 3.25rem)", { lineHeight: "1.15", fontWeight: "200" }],
-        h2: ["clamp(1.75rem, 3.5vw, 2.25rem)", { lineHeight: "1.2", fontWeight: "200" }],
-        h3: ["1.5rem", { lineHeight: "1.3", fontWeight: "300" }],
-        h4: ["1.125rem", { lineHeight: "1.4", fontWeight: "300" }],
-        display: ["clamp(2.75rem, 7vw, 5rem)", { lineHeight: "1.05", fontWeight: "200" }],
+        h1: ["clamp(2.25rem, 5vw, 3.25rem)", { lineHeight: "1.15", fontWeight: "400" }],
+        h2: ["clamp(1.75rem, 3.5vw, 2.25rem)", { lineHeight: "1.2", fontWeight: "400" }],
+        h3: ["1.5rem", { lineHeight: "1.3", fontWeight: "400" }],
+        h4: ["1.125rem", { lineHeight: "1.4", fontWeight: "400" }],
+        display: ["clamp(2.75rem, 7vw, 5rem)", { lineHeight: "1.05", fontWeight: "400" }],
       },
       backgroundImage: {
         "nexus-gradient": "linear-gradient(135deg, #2D3A4A 0%, #4A5E6F 50%, #6B7D8D 100%)",

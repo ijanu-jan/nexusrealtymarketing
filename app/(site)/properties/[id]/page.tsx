@@ -39,7 +39,7 @@ export default async function PropertyDetail({ params }: Props) {
   return (
     <article className="bg-white">
       <div className="container-x pt-8 text-sm text-muted">
-        <Link href="/properties" className="hover:text-gold">← Back to properties</Link>
+        <Link href="/properties" className="hover:text-primary-deep">← Back to properties</Link>
       </div>
 
       <header className="container-x mt-4 grid gap-6 md:grid-cols-[1fr_320px] md:items-start">
@@ -52,7 +52,7 @@ export default async function PropertyDetail({ params }: Props) {
           <p className="text-xs uppercase tracking-wider text-accent">
             {p.purpose === "rent" ? "Monthly Rent" : "Asking Price"}
           </p>
-          <p className="mt-1 font-heading text-3xl font-bold text-gold">{fmtPKR(p.price)}</p>
+          <p className="mt-1 font-heading text-3xl font-bold text-accent">{fmtPKR(p.price)}</p>
           <p className="mt-1 text-xs uppercase tracking-wider text-accent">
             Status: <span className="text-white">{p.status}</span>
           </p>
@@ -84,7 +84,7 @@ export default async function PropertyDetail({ params }: Props) {
       <div className="container-x mt-12 grid gap-10 lg:grid-cols-[1fr_400px]">
         <div>
           <h2 className="font-heading text-h2">Overview</h2>
-          <div className="mt-4 h-1 w-12 rounded bg-gold" />
+          <div className="mt-4 h-1 w-12 rounded bg-primary-deep" />
           <p className="mt-6 leading-relaxed text-primary">{p.description}</p>
 
           <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
@@ -100,7 +100,7 @@ export default async function PropertyDetail({ params }: Props) {
               <ul className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {p.features.map((f) => (
                   <li key={f} className="flex items-center gap-2 text-sm text-primary">
-                    <span className="h-1.5 w-1.5 rounded-full bg-gold" /> {f}
+                    <span className="h-1.5 w-1.5 rounded-full bg-primary-deep" /> {f}
                   </li>
                 ))}
               </ul>

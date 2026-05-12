@@ -33,7 +33,7 @@ export default function PropertyCard({ p }: { p: Property }) {
         </span>
       </div>
       <div className="p-5">
-        <h3 className="font-heading text-base font-light text-primary transition-colors duration-300 group-hover:text-gold">
+        <h3 className="font-heading text-base font-light text-primary transition-colors duration-300 group-hover:text-primary-deep">
           {p.title}
         </h3>
         <p className="mt-1 line-clamp-1 text-xs text-muted">{p.location}</p>

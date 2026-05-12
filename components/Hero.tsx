@@ -43,17 +43,17 @@ export default function Hero() {
         />
 
         <span
-          className="eyebrow !text-gold drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)] word-rise"
+          className="eyebrow !text-accent drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)] word-rise"
           style={{ animationDelay: "200ms" } as React.CSSProperties}
         >
           Built to Last. Guaranteed to Deliver.
         </span>
 
         <h1
-          className="word-rise mt-5 max-w-4xl font-heading font-extralight leading-[1.1] text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.7)]"
+          className="word-rise mt-5 max-w-4xl font-heading font-normal leading-[1.1] text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.7)]"
           style={{ animationDelay: "320ms", fontSize: "clamp(2.5rem, 6vw, 4.25rem)" } as React.CSSProperties}
         >
-          Redefining Real Estate in <span className="font-light text-gold">Bahria Town</span>
+          Redefining Real Estate in <span className="font-normal text-accent">Bahria Town</span>
         </h1>
 
         <p

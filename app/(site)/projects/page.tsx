@@ -12,7 +12,7 @@ export default function ProjectsPage() {
     <>
       <section className="bg-nexus-gradient py-20 text-white">
         <div className="container-x">
-          <span className="eyebrow !text-gold">Projects</span>
+          <span className="eyebrow !text-accent">Projects</span>
           <h1 className="mt-3 font-heading text-h1 text-white">Our Developments</h1>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
                 Plot No. 36, Lakeview Avenue-I, Central Business District-North Phase 8, Bahria Town,
                 Rawalpindi. Retail · Corporate · Apartments — near our new head office.
               </p>
-              <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary group-hover:text-gold">
+              <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary group-hover:text-primary-deep">
                 View project →
               </span>
             </div>

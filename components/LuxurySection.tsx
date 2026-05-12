@@ -9,12 +9,12 @@ export default function LuxurySection() {
         <Reveal variant="left">
           <div>
             <span className="eyebrow">High-End Urban Living</span>
-            <h2 className="mt-4 font-heading text-4xl font-extralight leading-[1.1] text-primary md:text-5xl">
+            <h2 className="mt-4 font-heading text-4xl font-normal leading-[1.1] text-primary md:text-5xl">
               Luxury &amp; Resort
               <br />
               Properties
             </h2>
-            <div className="mt-5 h-px w-16 bg-gold" />
+            <div className="mt-5 h-px w-16 bg-primary-deep" />
             <p className="mt-7 text-base leading-relaxed text-muted md:text-lg">
               For the discerning buyer eyeing exclusive luxury, Bahria Town doesn't disappoint. Think
               high-floor sky apartments with panoramic city views, designer villas with private gardens,
@@ -23,7 +23,7 @@ export default function LuxurySection() {
 
             <Link
               href="/properties?type=apartment"
-              className="mt-8 inline-flex items-center gap-3 rounded border border-gold px-6 py-3 text-xs font-medium uppercase tracking-[0.25em] text-gold transition-all duration-300 hover:bg-gold hover:text-white hover:translate-y-[-2px]"
+              className="mt-8 inline-flex items-center gap-3 rounded border border-primary-deep px-6 py-3 text-xs font-normal uppercase tracking-[0.25em] text-primary-deep transition-all duration-300 hover:bg-primary-deep hover:text-white hover:translate-y-[-2px]"
             >
               Discover →
             </Link>

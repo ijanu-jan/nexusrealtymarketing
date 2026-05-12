@@ -12,7 +12,7 @@ export default function ContactPage() {
     <>
       <section className="bg-nexus-gradient py-20 text-white">
         <div className="container-x">
-          <span className="eyebrow !text-gold">Contact</span>
+          <span className="eyebrow !text-accent">Contact</span>
           <h1 className="mt-3 font-heading text-h1 text-white">Let's talk property</h1>
           <p className="mt-4 max-w-2xl text-white/85">
             Reach out for sales, rentals, investment consultancy or to enquire about Tower 36. We'll get

@@ -42,10 +42,10 @@ export default async function HomePage() {
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
                 <span className="eyebrow">Featured Listings</span>
-                <h2 className="mt-4 font-heading text-4xl font-extralight text-primary md:text-5xl">
+                <h2 className="mt-4 font-heading text-4xl font-normal text-primary md:text-5xl">
                   Available now
                 </h2>
-                <div className="mt-5 h-px w-16 bg-gold" />
+                <div className="mt-5 h-px w-16 bg-primary-deep" />
               </div>
               <Link href="/properties" className="btn-secondary">View all properties</Link>
             </div>

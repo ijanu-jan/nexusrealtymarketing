@@ -50,7 +50,7 @@ export default function ConsultationBanner() {
                 className="h-11 w-auto flex-shrink-0 md:h-12"
               />
               <p className="font-heading text-sm font-light leading-snug text-white md:text-base">
-                Looking to invest in <span className="text-gold">Bahria Town</span>? Our real estate
+                Looking to invest in <span className="text-accent">Bahria Town</span>? Our real estate
                 team is ready when you are.
               </p>
             </div>
@@ -66,7 +66,7 @@ export default function ConsultationBanner() {
                 onChange={(e) => setName(e.target.value)}
                 required
                 placeholder="Your name"
-                className="rounded border border-primary-light bg-primary px-3.5 py-2.5 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-gold lg:w-40"
+                className="rounded border border-primary-light bg-primary px-3.5 py-2.5 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-accent lg:w-40"
               />
               <input
                 value={email}
@@ -74,13 +74,13 @@ export default function ConsultationBanner() {
                 type="email"
                 required
                 placeholder="Email address"
-                className="rounded border border-primary-light bg-primary px-3.5 py-2.5 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-gold lg:w-48"
+                className="rounded border border-primary-light bg-primary px-3.5 py-2.5 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-accent lg:w-48"
               />
               <div className="relative lg:w-36">
                 <select
                   value={time}
                   onChange={(e) => setTime(e.target.value)}
-                  className="w-full appearance-none rounded border border-primary-light bg-primary px-3.5 py-2.5 pr-9 text-sm text-white outline-none transition-colors focus:border-gold"
+                  className="w-full appearance-none rounded border border-primary-light bg-primary px-3.5 py-2.5 pr-9 text-sm text-white outline-none transition-colors focus:border-accent"
                   aria-label="Preferred time"
                 >
                   <option value="">Choose time</option>

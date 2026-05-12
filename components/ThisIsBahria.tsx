@@ -26,10 +26,10 @@ export default function ThisIsBahria() {
         <div className="grid items-start gap-12 lg:grid-cols-[1.4fr_1fr]">
           <div>
             <Reveal variant="up">
-              <h2 className="font-heading text-5xl font-extralight uppercase tracking-tight text-white md:text-7xl">
+              <h2 className="font-heading text-5xl font-normal uppercase tracking-tight text-white md:text-7xl">
                 This is <span className="text-white">Bahria</span>
               </h2>
-              <p className="mt-3 text-xs font-medium uppercase tracking-[0.3em] text-gold">
+              <p className="mt-3 text-xs font-normal uppercase tracking-[0.3em] text-accent">
                 Pakistan's premium real-estate destination is leading the market
               </p>
             </Reveal>
@@ -47,7 +47,7 @@ export default function ThisIsBahria() {
               {points.map((p, i) => (
                 <Reveal key={p} variant="up" delay={150 + i * 60}>
                   <li className="flex items-center gap-3 border-b border-white/10 pb-3 text-sm text-white/90">
-                    <span className="inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-sm bg-gold text-[10px] font-semibold text-primary-deep">
+                    <span className="inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-sm bg-accent text-[10px] font-semibold text-primary-deep">
                       ◆
                     </span>
                     <span dangerouslySetInnerHTML={{ __html: p }} />
@@ -74,7 +74,7 @@ export default function ThisIsBahria() {
         {/* Stats */}
         <div className="mt-16">
           <Reveal variant="up">
-            <p className="text-xs font-medium uppercase tracking-[0.3em] text-gold">Details</p>
+            <p className="text-xs font-normal uppercase tracking-[0.3em] text-accent">Details</p>
           </Reveal>
           <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((s, i) => (

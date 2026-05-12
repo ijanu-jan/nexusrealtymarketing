@@ -65,7 +65,7 @@ export default async function Tower36Page() {
           <div>
             <span className="eyebrow">About the Project</span>
             <h2 className="mt-3 font-heading text-h2">A new landmark in Bahria Phase 8</h2>
-            <div className="mt-4 h-1 w-16 rounded bg-gold" />
+            <div className="mt-4 h-1 w-16 rounded bg-primary-deep" />
             <p className="mt-6 text-muted">
               Tower 36 is the flagship Nexus Realty Marketing development. Designed for end-users and
               investors alike, the building hosts ground-floor retail with high pedestrian footfall,
@@ -80,7 +80,7 @@ export default async function Tower36Page() {
           <dl className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {facts.map((f) => (
               <div key={f.label} className="rounded bg-surface p-5">
-                <dt className="text-xs uppercase tracking-wider text-gold">{f.label}</dt>
+                <dt className="text-xs uppercase tracking-wider text-primary-deep">{f.label}</dt>
                 <dd className="mt-1 font-heading text-base font-semibold text-primary">{f.value}</dd>
               </div>
             ))}
@@ -93,7 +93,7 @@ export default async function Tower36Page() {
           <div className="text-center">
             <span className="eyebrow">Available Units</span>
             <h2 className="mt-3 font-heading text-h2">Inside Tower 36</h2>
-            <div className="mx-auto mt-4 h-1 w-16 rounded bg-gold" />
+            <div className="mx-auto mt-4 h-1 w-16 rounded bg-primary-deep" />
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {tower.length === 0 ? (

@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins), system-ui, sans-serif;
   letter-spacing: -0.005em;
   color: var(--color-primary);
-  font-weight: 200;
+  font-weight: 400;
 }
 
 @layer components {
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .btn-gold {
-    @apply inline-flex items-center justify-center gap-2 rounded bg-gold px-6 py-3 text-sm font-medium uppercase tracking-wide text-white transition-all duration-300 hover:bg-gold-dark hover:translate-y-[-2px] hover:shadow-lg;
+    @apply inline-flex items-center justify-center gap-2 rounded bg-white px-6 py-3 text-sm font-medium uppercase tracking-wide text-primary-deep transition-all duration-300 hover:bg-surface hover:translate-y-[-2px] hover:shadow-lg;
   }
 
   .section {
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .eyebrow {
-    @apply text-xs font-medium uppercase tracking-[0.3em] text-gold;
+    @apply text-xs font-medium uppercase tracking-[0.3em] text-primary-deep;
   }
 
   .serif {

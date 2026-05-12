@@ -52,7 +52,7 @@ export default function Navbar() {
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-primary transition-colors hover:text-gold"
+              className="text-sm font-medium text-primary transition-colors hover:text-primary-deep"
             >
               {l.label}
             </Link>

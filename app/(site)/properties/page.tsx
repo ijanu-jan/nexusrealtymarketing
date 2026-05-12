@@ -35,7 +35,7 @@ export default async function PropertiesPage({
       {/* Page header */}
       <section className="bg-nexus-gradient py-20 text-white">
         <div className="container-x">
-          <span className="eyebrow !text-gold">Properties</span>
+          <span className="eyebrow !text-accent">Properties</span>
           <h1 className="mt-3 font-heading text-h1 text-white">Find your next address</h1>
           <p className="mt-4 max-w-2xl text-white/85">
             Curated listings across Bahria Town and our flagship Tower 36 development. Filter by type,

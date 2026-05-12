@@ -10,7 +10,7 @@ export default function FeaturedProject() {
           <div className="text-center">
             <span className="eyebrow">Our Project</span>
             <h2 className="mt-4 font-heading text-h2">Projects</h2>
-            <div className="mx-auto mt-5 h-px w-16 bg-gold" />
+            <div className="mx-auto mt-5 h-px w-16 bg-primary-deep" />
           </div>
         </Reveal>
 
@@ -40,7 +40,7 @@ export default function FeaturedProject() {
 
               {/* Centered overlay text */}
               <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center text-white">
-                <span className="eyebrow !text-gold drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)]">
+                <span className="eyebrow !text-accent drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)]">
                   Flagship Development
                 </span>
                 <h3 className="mt-3 font-heading text-5xl font-extralight tracking-wide drop-shadow-[0_4px_18px_rgba(0,0,0,0.85)] md:text-7xl">
@@ -49,7 +49,7 @@ export default function FeaturedProject() {
                 <p className="mt-3 font-light tracking-wide text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.85)] md:text-lg">
                   Bahria Town, Rawalpindi
                 </p>
-                <span className="mt-7 inline-flex items-center gap-2 rounded border border-white/80 bg-black/30 px-5 py-2 text-xs font-medium uppercase tracking-[0.25em] text-white backdrop-blur-sm transition-colors duration-300 group-hover:border-gold group-hover:bg-gold/20 group-hover:text-gold">
+                <span className="mt-7 inline-flex items-center gap-2 rounded border border-white/80 bg-black/30 px-5 py-2 text-xs font-medium uppercase tracking-[0.25em] text-white backdrop-blur-sm transition-colors duration-300 group-hover:border-accent group-hover:bg-accent/20 group-hover:text-accent">
                   View Project →
                 </span>
               </div>

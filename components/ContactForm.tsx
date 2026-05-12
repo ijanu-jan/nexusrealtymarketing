@@ -54,7 +54,7 @@ export default function ContactForm() {
         rows={5}
         placeholder="Your message"
         required
-        className="rounded border border-primary-light bg-primary px-4 py-3 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-gold"
+        className="rounded border border-primary-light bg-primary px-4 py-3 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-accent"
       />
 
       {/* honeypot */}
@@ -102,7 +102,7 @@ function Field({
       type={type}
       placeholder={placeholder}
       required={required}
-      className="rounded border border-primary-light bg-primary px-4 py-3 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-gold"
+      className="rounded border border-primary-light bg-primary px-4 py-3 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-accent"
     />
   );
 }
@@ -123,7 +123,7 @@ function Select({
         name={name}
         required={required}
         defaultValue=""
-        className="w-full appearance-none rounded border border-primary-light bg-primary px-4 py-3 pr-10 text-sm text-white outline-none transition-colors focus:border-gold"
+        className="w-full appearance-none rounded border border-primary-light bg-primary px-4 py-3 pr-10 text-sm text-white outline-none transition-colors focus:border-accent"
       >
         {children}
       </select>

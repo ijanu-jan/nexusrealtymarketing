@@ -34,10 +34,10 @@ export default function Services() {
         <Reveal variant="up">
           <div className="text-center">
             <span className="eyebrow">What we do</span>
-            <h2 className="mt-4 font-heading text-4xl font-extralight text-primary md:text-5xl">
+            <h2 className="mt-4 font-heading text-4xl font-normal text-primary md:text-5xl">
               Complete real estate solutions
             </h2>
-            <div className="mx-auto mt-5 h-px w-16 bg-gold" />
+            <div className="mx-auto mt-5 h-px w-16 bg-primary-deep" />
           </div>
         </Reveal>
 
@@ -45,7 +45,7 @@ export default function Services() {
           {services.map((s, i) => (
             <Reveal key={s.title} variant="up" delay={120 + i * 90}>
               <article className="group h-full rounded-md bg-white p-6 shadow-card transition-all duration-500 hover:-translate-y-1 hover:shadow-cardHover">
-                <div className="flex h-12 w-12 items-center justify-center rounded bg-primary text-white transition-all duration-300 group-hover:bg-gold group-hover:rotate-3">
+                <div className="flex h-12 w-12 items-center justify-center rounded bg-primary text-white transition-all duration-300 group-hover:bg-primary-deep group-hover:rotate-3">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
                     <path d={s.icon} strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
