@@ -21,7 +21,7 @@ export default function Footer() {
             width={420}
             height={290}
             unoptimized
-            className="h-auto w-72 md:w-96"
+            className="mx-auto block h-auto w-64 md:w-80"
             style={{ filter: "brightness(0) invert(1)" }}
           />
 

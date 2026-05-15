@@ -10,7 +10,7 @@ export default function Hero() {
           loop
           playsInline
           preload="metadata"
-          poster="/assets/graphics/front-tower-36.webp"
+          poster="/assets/graphics/hero-poster.webp"
           aria-hidden="true"
         >
           <source src="/assets/hero.mp4" type="video/mp4" />

@@ -24,8 +24,8 @@ export default function FeaturedProject() {
                 src="/assets/graphics/front-tower-36.webp"
                 alt="Tower 36 — Bahria Town, Rawalpindi"
                 fill
-                priority
                 sizes="(min-width: 1024px) 1000px, 100vw"
+                quality={75}
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
               />
               {/* Strong dark overlay for guaranteed text contrast */}
