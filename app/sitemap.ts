@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { listProperties } from "@/lib/properties";
 
-const base = "https://nexusrealtymarketing.pk";
+const base = "https://nexusrealtymarketing.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const properties = await listProperties();

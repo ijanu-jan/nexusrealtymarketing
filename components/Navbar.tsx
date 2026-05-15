@@ -30,21 +30,16 @@ export default function Navbar() {
       }`}
     >
       <div className="container-x flex items-center justify-between py-3 md:py-4">
-        <Link href="/" className="flex items-center gap-3" aria-label="Nexus Realty Marketing">
+        <Link href="/" className="flex items-center" aria-label="Nexus Realty Marketing">
           <Image
-            src="/assets/logo-mark.png"
-            alt="Nexus Realty Marketing logo"
-            width={48}
-            height={48}
+            src="/assets/header-logo.svg"
+            alt="Nexus Realty Marketing"
+            width={480}
+            height={160}
             priority
-            className="h-10 w-auto md:h-12"
+            unoptimized
+            className="h-14 w-auto md:h-16"
           />
-          <span className="hidden font-heading text-sm font-semibold leading-tight text-primary sm:block">
-            NEXUS REALTY
-            <span className="block text-[10px] font-normal tracking-wider text-muted">
-              Marketing Pvt. Ltd.
-            </span>
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary">

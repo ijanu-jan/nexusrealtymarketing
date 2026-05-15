@@ -39,7 +39,7 @@ export default function MeetAgents() {
           <div className="text-center">
             <span className="eyebrow">The Team</span>
             <h2 className="mt-4 font-heading text-4xl font-normal text-primary md:text-5xl">
-              Meet Our Agents
+              Meet Our Team
             </h2>
             <div className="mx-auto mt-5 h-px w-16 bg-primary-deep" />
             <p className="mx-auto mt-5 max-w-2xl text-sm text-muted md:text-base">

@@ -31,8 +31,8 @@ export default function ContactSection() {
               </li>
               <li className="flex items-start gap-3">
                 <Globe />
-                <a href="https://nexusrealtymarketing.pk" className="hover:text-primary-deep">
-                  nexusrealtymarketing.pk
+                <a href="https://nexusrealtymarketing.com" className="hover:text-primary-deep">
+                  nexusrealtymarketing.com
                 </a>
               </li>
             </ul>

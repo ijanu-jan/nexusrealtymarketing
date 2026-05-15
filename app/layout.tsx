@@ -25,7 +25,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nexusrealtymarketing.pk"),
+  metadataBase: new URL("https://nexusrealtymarketing.com"),
   title: {
     default: "Nexus Realty Marketing | Built to Last. Guaranteed to Deliver.",
     template: "%s | Nexus Realty Marketing",

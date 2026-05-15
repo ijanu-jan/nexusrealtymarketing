@@ -25,7 +25,7 @@ export default function ProjectsPage() {
           >
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
-                src="/assets/graphics/tower36-render.jpg"
+                src="/assets/graphics/front-tower-36.webp"
                 alt="Tower 36"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
@@ -34,11 +34,12 @@ export default function ProjectsPage() {
             </div>
             <div className="p-6 md:p-10">
               <Image
-                src="/assets/tower36-logo.png"
+                src="/assets/tower-36-logo.svg"
                 alt="Tower 36 logo"
                 width={420}
-                height={120}
-                className="h-16 w-auto md:h-20"
+                height={200}
+                unoptimized
+                className="h-20 w-auto md:h-24"
               />
               <p className="mt-6 text-sm text-muted md:text-base">
                 Plot No. 36, Lakeview Avenue-I, Central Business District-North Phase 8, Bahria Town,

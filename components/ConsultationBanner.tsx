@@ -43,10 +43,11 @@ export default function ConsultationBanner() {
             {/* Left: logo + headline (2 rows max) */}
             <div className="flex items-center gap-4 lg:flex-1 lg:min-w-0">
               <Image
-                src="/assets/logo-mark.png"
+                src="/assets/nexus-icon.svg"
                 alt="Nexus Realty Marketing"
                 width={56}
                 height={56}
+                unoptimized
                 className="h-11 w-auto flex-shrink-0 md:h-12"
               />
               <p className="font-heading text-sm font-light leading-snug text-white md:text-base">

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-primary-deep">
@@ -12,7 +10,7 @@ export default function Hero() {
           loop
           playsInline
           preload="metadata"
-          poster="/assets/graphics/tower36-render.jpg"
+          poster="/assets/graphics/front-tower-36.webp"
           aria-hidden="true"
         >
           <source src="/assets/hero.mp4" type="video/mp4" />
@@ -31,17 +29,6 @@ export default function Hero() {
       </div>
 
       <div className="container-x relative z-10 flex min-h-[92vh] flex-col items-center justify-center py-24 text-center text-white md:py-32">
-        {/* Logo above heading */}
-        <Image
-          src="/assets/logo-mark.png"
-          alt="Nexus Realty Marketing"
-          width={120}
-          height={120}
-          priority
-          className="mb-8 h-16 w-auto opacity-95 drop-shadow-[0_4px_18px_rgba(0,0,0,0.55)] md:h-20 word-rise"
-          style={{ animationDelay: "60ms" } as React.CSSProperties}
-        />
-
         <span
           className="eyebrow !text-accent drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)] word-rise"
           style={{ animationDelay: "200ms" } as React.CSSProperties}

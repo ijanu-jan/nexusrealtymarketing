@@ -29,24 +29,29 @@ export default async function Tower36Page() {
       <section className="relative bg-primary text-white">
         <div className="absolute inset-0">
           <Image
-            src="/assets/graphics/tower36-render.jpg"
+            src="/assets/graphics/front-tower-36.webp"
             alt=""
             fill
             sizes="100vw"
-            className="object-cover opacity-30"
+            className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-nexus-gradient opacity-90" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/40 to-black/70" />
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                "radial-gradient(ellipse at center, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.1) 55%, rgba(0,0,0,0) 85%)",
+            }}
+          />
         </div>
         <div className="container-x relative z-10 py-24 md:py-32">
-          <Image
-            src="/assets/tower36-logo.png"
-            alt="Tower 36"
-            width={520}
-            height={140}
-            priority
-            className="h-24 w-auto md:h-28"
-          />
+          <h1 className="font-heading text-6xl font-bold uppercase tracking-wide text-white drop-shadow-[0_4px_22px_rgba(0,0,0,0.95)] md:text-8xl">
+            Tower 36
+          </h1>
+          <p className="mt-3 text-xs font-semibold uppercase tracking-[0.35em] text-accent drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] md:text-sm">
+            Retail · Corporate · Apartments
+          </p>
           <p className="mt-6 max-w-2xl text-lg text-white/90">
             A landmark mixed-use development in Bahria Town's Central Business District — combining
             premium retail, modern corporate offices and contemporary apartments under one address.
