@@ -33,7 +33,7 @@ export default function LuxurySection() {
         <Reveal variant="right" delay={120}>
           <div className="relative aspect-[5/4] overflow-hidden rounded-md shadow-card">
             <Image
-              src="/assets/graphics/new-project-to-come.webp"
+              src="/assets/graphics/front-tower-36.webp"
               alt="Exclusive luxury residences in Bahria Town"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
