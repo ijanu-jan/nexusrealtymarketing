@@ -9,8 +9,8 @@ export default function BrandIntro() {
         </Reveal>
 
         <Reveal variant="up" delay={100}>
-          <h2 className="mt-4 font-heading text-3xl font-normal tracking-wide text-primary md:text-4xl">
-            NEXUS REALTY MARKETING
+          <h2 className="mt-4 font-heading text-3xl font-normal text-primary md:text-4xl">
+            Elevating Real Estate Across Islamabad &amp; Rawalpindi
           </h2>
         </Reveal>
 
@@ -20,10 +20,10 @@ export default function BrandIntro() {
 
         <Reveal variant="up" delay={300}>
           <p className="serif mt-8 text-lg leading-relaxed text-primary md:text-xl md:leading-[1.75]">
-            is a professional real estate marketing company committed to delivering high-quality
-            property solutions across residential and commercial sectors. With a strong
-            understanding of market dynamics and client needs, we provide reliable services in
-            property sales, purchases, rentals, and investment consultancy.
+            Nexus Realty Marketing specializes in premium residential and commercial properties,
+            offering expert guidance in sales, rentals, investments, and exclusive developments. We
+            help clients make confident property decisions through market insight, personalized
+            service, and a commitment to excellence.
           </p>
         </Reveal>
       </div>

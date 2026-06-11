@@ -69,16 +69,25 @@ export default async function Tower36Page() {
         <div className="container-x grid gap-10 lg:grid-cols-2">
           <div>
             <span className="eyebrow">About the Project</span>
-            <h2 className="mt-3 font-heading text-h2">A new landmark in Bahria Phase 8</h2>
+            <h2 className="mt-3 font-heading text-h2">A New Landmark in Bahria Town Phase 8</h2>
             <div className="mt-4 h-1 w-16 rounded bg-primary-deep" />
             <p className="mt-6 text-muted">
-              Tower 36 is the flagship Nexus Realty Marketing development. Designed for end-users and
-              investors alike, the building hosts ground-floor retail with high pedestrian footfall,
-              flexible corporate floors, and modern residential apartments above.
+              Developed by SWM and exclusively marketed by Nexus Realty Marketing, Tower 36 is a premium
+              mixed-use development that seamlessly integrates retail, corporate, and residential spaces
+              within a single modern destination. Designed to meet the needs of both investors and
+              end-users, the project features high-visibility retail outlets, flexible corporate offices,
+              and contemporary apartments in one of Bahria Town's most promising commercial corridors.
             </p>
             <p className="mt-4 text-muted">
-              Sited on Lakeview Avenue I in the heart of CBD North, Tower 36 sits next to Bahria Town's
-              expanding commercial district and offers superb connectivity throughout Phase 8.
+              Strategically located on Lake View Avenue I in the heart of CBD North, Tower 36 enjoys a
+              prime position alongside Phase 8's rapidly expanding commercial district. With excellent
+              connectivity, strong growth potential, and a vibrant business environment, the development
+              offers exceptional value for investors, entrepreneurs, and residents alike.
+            </p>
+            <p className="mt-4 text-muted">
+              As the exclusive marketing partner for Tower 36, Nexus Realty Marketing is proud to present
+              a project that combines strategic location, modern design, and long-term investment
+              potential, setting a new benchmark for mixed-use developments in Bahria Town Phase 8.
             </p>
           </div>
 

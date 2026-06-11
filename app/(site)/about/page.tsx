@@ -39,17 +39,32 @@ export default function AboutPage() {
             />
           </div>
           <div>
-            <span className="eyebrow">Who we are</span>
-            <h2 className="mt-3 font-heading text-h2">A trusted name in Bahria Town</h2>
+            <span className="eyebrow">About Us</span>
+            <h2 className="mt-3 font-heading text-h2">Who We Are</h2>
             <div className="mt-4 h-1 w-16 rounded bg-primary-deep" />
             <p className="mt-6 text-muted">
-              Nexus Realty Marketing specializes in marketing and dealing in leading housing societies
-              and real estate projects. Our team stays updated with the latest market trends to offer the
-              best investment options and ensure long-term value for our clients.
+              Nexus Realty Marketing is a premier real estate marketing and consultancy firm serving
+              Islamabad, Rawalpindi, and the wider region. We specialize in connecting investors,
+              businesses, and homebuyers with exceptional property opportunities through strategic
+              insight, market expertise, and a commitment to excellence.
             </p>
             <p className="mt-4 text-muted">
-              Our flagship project — Tower 36 — combines retail, corporate offices and modern apartments
-              in the heart of Bahria Town's Central Business District.
+              Our approach goes beyond traditional real estate services. We work closely with
+              developers, investors, and end-users to create meaningful connections between people and
+              properties, ensuring every project receives the visibility, positioning, and market reach
+              it deserves.
+            </p>
+            <p className="mt-4 text-muted">
+              From residential communities and commercial assets to landmark mixed-use developments, we
+              are dedicated to delivering value at every stage of the real estate journey. Through
+              exclusive partnerships, data-driven marketing, and personalized client service, Nexus
+              Realty Marketing has established itself as a trusted name in Pakistan's evolving property
+              landscape.
+            </p>
+            <p className="mt-4 text-muted">
+              As the exclusive marketing partner for premium developments such as Tower 36, we remain
+              focused on identifying opportunities, building lasting relationships, and helping our
+              clients make confident real estate decisions.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/projects/tower-36" className="btn-primary">Explore Tower 36</Link>
