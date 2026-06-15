@@ -1,0 +1,149 @@
+{
+  "colorScheme": "light",
+  "brand": "Nexus Realty Marketing Pvt. Ltd.",
+  "fonts": [
+    { "family": "Plus Jakarta Sans", "role": "body" },
+    { "family": "Poppins", "role": "heading" }
+  ],
+  "colors": {
+    "primary": "#2D3A4A",
+    "primaryLight": "#3E5060",
+    "secondary": "#6B7D8D",
+    "accent": "#8FA3B3",
+    "gold": "#D4AF37",
+    "background": "#F7F8F9",
+    "backgroundDark": "#2D3A4A",
+    "backgroundGradient": "linear-gradient(135deg, #2D3A4A 0%, #4A5E6F 50%, #6B7D8D 100%)",
+    "textPrimary": "#1A1A1A",
+    "textOnDark": "#FFFFFF",
+    "textMuted": "#6B7D8D",
+    "link": "#3E5060",
+    "linkHover": "#2D3A4A",
+    "border": "#E0E4E8",
+    "cardBg": "#FFFFFF",
+    "overlayDark": "rgba(45, 58, 74, 0.85)"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Plus Jakarta Sans",
+      "heading": "Poppins"
+    },
+    "fontStacks": {
+      "heading": ["Poppins", "sans-serif"],
+      "body": ["Plus Jakarta Sans", "sans-serif"]
+    },
+    "fontSizes": {
+      "h1": "45px",
+      "h2": "32px",
+      "h3": "24px",
+      "h4": "18px",
+      "body": "15px",
+      "small": "13px",
+      "caption": "11px"
+    },
+    "fontWeights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "4px",
+    "sectionPadding": "80px 0"
+  },
+  "components": {
+    "navbar": {
+      "background": "#FFFFFF",
+      "textColor": "#2D3A4A",
+      "shadow": "0 2px 12px rgba(45, 58, 74, 0.08)"
+    },
+    "hero": {
+      "background": "linear-gradient(135deg, #2D3A4A 0%, #4A5E6F 50%, #6B7D8D 100%)",
+      "textColor": "#FFFFFF",
+      "overlay": "rgba(45, 58, 74, 0.7)"
+    },
+    "input": {
+      "background": "#2D3A4A",
+      "textColor": "#FFFFFF",
+      "placeholderColor": "#8FA3B3",
+      "borderColor": "#3E5060",
+      "borderRadius": "4px",
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#2D3A4A",
+      "textColor": "#FFFFFF",
+      "borderRadius": "4px",
+      "hoverBackground": "#3E5060",
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "transparent",
+      "textColor": "#2D3A4A",
+      "border": "2px solid #2D3A4A",
+      "borderRadius": "4px",
+      "hoverBackground": "#2D3A4A",
+      "hoverTextColor": "#FFFFFF"
+    },
+    "buttonAccent": {
+      "background": "#D4AF37",
+      "textColor": "#FFFFFF",
+      "borderRadius": "4px",
+      "hoverBackground": "#C4A030"
+    },
+    "card": {
+      "background": "#FFFFFF",
+      "borderRadius": "8px",
+      "shadow": "0 4px 20px rgba(45, 58, 74, 0.08)",
+      "hoverShadow": "0 8px 32px rgba(45, 58, 74, 0.15)"
+    },
+    "darkSection": {
+      "background": "linear-gradient(135deg, #2D3A4A 0%, #3E5060 100%)",
+      "textColor": "#FFFFFF",
+      "mutedText": "#8FA3B3"
+    },
+    "statsCounter": {
+      "numberColor": "#D4AF37",
+      "labelColor": "#6B7D8D",
+      "numberFont": "Poppins",
+      "numberWeight": 700
+    },
+    "footer": {
+      "background": "#1A2530",
+      "textColor": "#8FA3B3",
+      "headingColor": "#FFFFFF",
+      "linkColor": "#8FA3B3",
+      "linkHoverColor": "#FFFFFF"
+    },
+    "propertyCard": {
+      "priceBadge": "#2D3A4A",
+      "priceText": "#FFFFFF",
+      "tagBackground": "#6B7D8D",
+      "tagText": "#FFFFFF"
+    }
+  },
+  "sectionMapping": {
+    "hero": "Nexus gradient background with search bar overlay on property image",
+    "featuredProperties": "White background, property grid cards with hover shadow lift",
+    "advantages": "Light gray #F7F8F9 background, icon cards",
+    "luxuryProperties": "Dark section using backgroundGradient, white text",
+    "thisIsRAK": "Full-width image with overlayDark, white bold text",
+    "stats": "Dark section, gold #D4AF37 numbers, white labels",
+    "team": "White background, team member cards",
+    "contactForm": "Light background, dark input fields matching Nexus palette",
+    "footer": "Deepest navy #1A2530, muted steel blue links"
+  },
+  "images": {
+    "logo": "/assets/nexus_marketing_logo.png",
+    "logoWordmark": "/assets/nexus_realty_marketing.png",
+    "backgroundGradient": "/assets/gradient.png"
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "high-end real estate buyers and investors"
+  }
+}
