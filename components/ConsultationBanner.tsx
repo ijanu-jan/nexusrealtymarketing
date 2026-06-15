@@ -9,7 +9,7 @@ type Status = "idle" | "submitting" | "success" | "error";
 export default function ConsultationBanner() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [time, setTime] = useState("");
+  const [phone, setPhone] = useState("");
   const [status, setStatus] = useState<Status>("idle");
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -22,14 +22,14 @@ export default function ConsultationBanner() {
         body: JSON.stringify({
           name,
           email,
-          phone: "—",
+          phone: phone || "—",
           interest: "consultation",
-          message: `Free consultation requested. Preferred time: ${time || "Anytime"}`,
+          message: `Free consultation requested.`,
         }),
       });
       if (!res.ok) throw new Error("Failed");
       setStatus("success");
-      setName(""); setEmail(""); setTime("");
+      setName(""); setEmail(""); setPhone("");
     } catch {
       setStatus("error");
     }
@@ -77,25 +77,14 @@ export default function ConsultationBanner() {
                 placeholder="Email address"
                 className="rounded border border-primary-light bg-primary px-3.5 py-2.5 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-accent lg:w-48"
               />
-              <div className="relative lg:w-36">
-                <select
-                  value={time}
-                  onChange={(e) => setTime(e.target.value)}
-                  className="w-full appearance-none rounded border border-primary-light bg-primary px-3.5 py-2.5 pr-9 text-sm text-white outline-none transition-colors focus:border-accent"
-                  aria-label="Preferred time"
-                >
-                  <option value="">Choose time</option>
-                  <option value="Morning (9–12)">Morning (9–12)</option>
-                  <option value="Afternoon (12–4)">Afternoon (12–4)</option>
-                  <option value="Evening (4–8)">Evening (4–8)</option>
-                </select>
-                <svg
-                  className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-accent"
-                  viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"
-                >
-                  <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
+              <input
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                type="tel"
+                required
+                placeholder="Phone number"
+                className="rounded border border-primary-light bg-primary px-3.5 py-2.5 text-sm text-white placeholder:text-accent outline-none transition-colors focus:border-accent lg:w-40"
+              />
               <button
                 type="submit"
                 disabled={status === "submitting"}
