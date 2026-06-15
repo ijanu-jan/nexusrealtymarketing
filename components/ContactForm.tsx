@@ -42,6 +42,8 @@ export default function ContactForm() {
         <Select name="interest" required>
           <option value="" disabled>I am interested in...</option>
           <option value="tower-36">Tower 36</option>
+          <option value="dha">DHA</option>
+          <option value="bahria-town">Bahria Town</option>
           <option value="buying">Buying a property</option>
           <option value="selling">Selling a property</option>
           <option value="rental">Rental services</option>
