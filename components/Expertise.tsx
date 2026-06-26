@@ -37,7 +37,7 @@ export default function Expertise() {
                   </svg>
                   +92 331 444 6666
                 </a>
-                <Link href="/about" className="ml-3 text-sm font-normal uppercase tracking-wider text-primary hover:text-primary-deep">
+                <Link href="/#team" className="ml-3 text-sm font-normal uppercase tracking-wider text-primary hover:text-primary-deep">
                   Meet the team →
                 </Link>
               </div>

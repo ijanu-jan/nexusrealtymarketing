@@ -21,20 +21,20 @@ export default function FeaturedProject() {
           >
             <div className="relative aspect-[16/10] w-full">
               <Image
-                src="/assets/graphics/front-tower-36.webp"
+                src="/assets/graphics/tower-360.jpeg"
                 alt="Tower 36 — Bahria Town, Rawalpindi"
                 fill
                 sizes="(min-width: 1024px) 1000px, 100vw"
                 quality={75}
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
               />
-              {/* Strong dark overlay for guaranteed text contrast */}
-              <div className="absolute inset-0 bg-black/65 transition-colors duration-500 group-hover:bg-black/55" />
+              {/* Dark overlay for text contrast — lightened so the building stays visible */}
+              <div className="absolute inset-0 bg-black/35 transition-colors duration-500 group-hover:bg-black/25" />
               <div
                 className="absolute inset-0"
                 style={{
                   background:
-                    "radial-gradient(ellipse at center, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.15) 90%)",
+                    "radial-gradient(ellipse at center, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 55%, rgba(0,0,0,0) 90%)",
                 }}
               />
 

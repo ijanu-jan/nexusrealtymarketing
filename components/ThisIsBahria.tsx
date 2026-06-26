@@ -60,7 +60,7 @@ export default function ThisIsBahria() {
           <Reveal variant="right" delay={120}>
             <div className="relative aspect-[3/4] overflow-hidden rounded-md">
               <Image
-                src="/assets/graphics/night-view.webp"
+                src="/assets/graphics/this-is-bahria.jpeg"
                 alt="Bahria Town Phase 8 — night view"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"

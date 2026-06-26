@@ -51,8 +51,8 @@ export default function ConsultationBanner() {
                 className="h-11 w-auto flex-shrink-0 md:h-12"
               />
               <p className="font-heading text-sm font-light leading-snug text-white md:text-base">
-                Looking to invest in <span className="text-accent">Bahria Town</span>? Our real estate
-                team is ready when you are.
+                Looking to invest in <span className="text-accent">Rawalpindi / Islamabad</span>? Our real estate
+                team is ready to insist you.
               </p>
             </div>
 
