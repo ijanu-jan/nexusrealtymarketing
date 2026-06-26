@@ -122,7 +122,7 @@ const localListings: Property[] = [
   {
     id: "local-bt-ph7-park-facing-home-4",
     slug: "bahria-town-phase-7-54-marla-luxury-park-facing-residence",
-    title: "54 Marla Luxury Park-Facing Residence — Bahria Town Phase 7",
+    title: "Luxury Park-Facing Residence for Sale in Bahria Town Phase 7",
     description:
       "Presenting an exceptional 54 Marla Luxury Home located on Corniche Road, Intellectual Village, Spring North, Bahria Town Phase 7. This magnificent park-facing property offers an unmatched blend of elegance, space, and premium craftsmanship with imported fittings throughout.",
     location: "Corniche Road, Intellectual Village, Spring North, Bahria Town Phase 7, Rawalpindi",
