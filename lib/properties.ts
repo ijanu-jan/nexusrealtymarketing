@@ -37,8 +37,8 @@ const localListings: Property[] = [
       "Solid Pine Wood Doors Throughout",
     ],
     images: [
-      "/assets/properties/home-1/main.jpeg",
       "/assets/properties/home-1/gallery-1.jpeg",
+      "/assets/properties/home-1/main.jpeg",
       "/assets/properties/home-1/gallery-2.jpeg",
       "/assets/properties/home-1/gallery-3.jpeg",
       "/assets/properties/home-1/gallery-4.jpeg",
@@ -75,8 +75,8 @@ const localListings: Property[] = [
       "Solid Pine Wood Doors Throughout",
     ],
     images: [
-      "/assets/properties/home-2/main.jpeg",
       "/assets/properties/home-2/gallery-1.jpeg",
+      "/assets/properties/home-2/main.jpeg",
       "/assets/properties/home-2/gallery-2.jpeg",
       "/assets/properties/home-2/gallery-3.jpeg",
       "/assets/properties/home-2/gallery-4.jpeg",
